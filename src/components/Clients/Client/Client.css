@@ -1,0 +1,18 @@
+.clients .slick-dots .slick-active {
+  border: 2px solid gray;
+  border-radius: 50%;
+}
+
+.clients .slick-dots li button:before {
+  content: "";
+  height: 7px;
+  width: 7px;
+  background: lightgray;
+  border-radius: 50%;
+  left: 32%;
+  top: 29%;
+  opacity: 1;
+}
+.clients .slick-dots li.slick-active button:before {
+  background: #4b75e8;
+}

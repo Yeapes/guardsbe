@@ -1,0 +1,11 @@
+.seats p {
+  color: yellow;
+  position: relative;
+}
+.seats p:before {
+  content: "\f6c0";
+  /* color: yellow;
+  position: absolute;
+  right: 0;
+  top: 0; */
+}

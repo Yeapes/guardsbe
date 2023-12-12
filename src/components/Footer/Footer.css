@@ -1,0 +1,39 @@
+.footer-cta-button {
+  color: #086ad8;
+}
+.footer-cta-button::before {
+  background-color: #086ad8;
+  content: "";
+  height: 50%;
+  width: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: auto;
+  transition: 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  z-index: -1;
+}
+
+.footer-cta-button:hover::before {
+  width: 100%;
+  right: 0;
+  left: auto;
+}
+.footer-cta-button::after {
+  background-color: #086ad8;
+  content: "";
+  height: 50%;
+  width: 0;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: auto;
+  transition: 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  z-index: -1;
+}
+
+.footer-cta-button:hover::after {
+  width: 100%;
+  left: 0;
+  right: auto;
+}
